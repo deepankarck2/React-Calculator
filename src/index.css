@@ -1,3 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.display{
+  width: 98.4%;
+  height: 70px;
+  border-radius: 6px;
+  display: flex;
+  color: black;
+  align-items: flex-end;
+  border: 1px solid gray;
+  margin: 15px 0 15px 4px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.result{
+  border: none;
+  text-align: right;
+  width: 100%;  
+  font-size: 25px;
+}
+.result1{
+  border: none;
+  text-align: right;
+  width: 100%;  
+  font-size: 15px;
+}
+
+.result2{
+  border: none;
+  text-align: right;
+  width: 100%;  
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+input:disabled{
+  background: transparent;
+  margin-top: 5px;
+  padding-right: 8px;
+  color: black;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  width: 643px;
+  height: 352px;
+  margin: 120px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+table{
+  float: left;
+  width: 42%;
+}
+
+.display:hover{
+  border: 1px solid black !important;
+  box-shadow: 0 0 3px black !important;
+}
+
+.cell{
+  font-family: 'Roboto', sans-serif;
+  width: 4.9rem;
+  height: 2.3rem;
+  border-style: none;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.cell:active{
+  background-color: white;
+}
+
+.euqal{
+  background-color: #4285f4;
+  color: white;
+  font-weight: 400;
+  font-size: large;
+}
+
+table td{
+  padding: 3px;
+}
+
+.operator{
+  background-color: #dadce0;
+}
+
+.digits{
+  background-color: #f1f3f4;
 }
